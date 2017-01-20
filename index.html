@@ -7,295 +7,322 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lavauto Inca</title>
     <link rel="stylesheet" href="assets/css/app.css">
-    
+    <link rel="stylesheet" href="assets/css/foundation-icons.css">
+    <!-- <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+
 
   </head>
   <body>
 
     <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
-        <!-- Your menu or Off-canvas content goes here -->
-        <ul class="no-bullet">
-      <li><a href="#location">Contact</a></li>
-      <li><a href="#blog">Blog</a></li>
-      <li><a href="#positioning">Our Process</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#services">Services</a></li>
-    </ul>
-      </div>
-      <div class="off-canvas-content" data-off-canvas-content>
-      <div class="main">  <!-- Your page content lives here -->
     
+        <!-- Close button -->
+        <button class="close-button" aria-label="Close menu" type="button" data-close>
+            <span aria-hidden="true">&times;</span>
+          </button>
     
-    
-    
-    <div class="row">
-      <div class="large-12 columns text-center  secondary" id="nav">
-    
-    
-      </div>
-    </div>
-    
-    
-      </div>
-    </div>
-    <div class="row">
-      <div class="large-12 columns text-center  secondary" id="hero">
-    
-        <ul id="hero-menu" class="no-bullet text-left">
-          <li><a href="#quienes">Quiénes Somos</a></li>
-          <li><a href="#services">Servicios</a></li>
-          <li><a href="#location">Dónde Estamos</a></li>
-          <li><a href="#contact">Contacto</a></li>
+        <!-- Menu -->
+        <ul class="vertical menu">
+            <li><a href="#location">Contacto</a></li>
+            <li><a href="#location">Dónde Estamos</a></li>
+            <li><a href="#portfolio">Servicios</a></li>
+            <li><a href="#positioning">Quiénes Somos</a></li>
+            <li><a href="tel:971504560">tel: 971 50 45 60</a></li>
+            <li>
+                <a href="http://www.facebook.com"><img id="fb-logo" src="../assets/img/fb.png" style="border: 3px solid white;" alt=""></a>
+            </li>
         </ul>
-        <img src="../assets/img/hero.jpg" alt="">
-        <h2>hero</h2></div>
-    </div>
-    <div class="row">
-      <div class="large-12 columns text-center  secondary" id="services">
-        <img src="../assets/img/logolavauto.png" alt="" id="logo" class="text-center">
-        <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
-      <ul class="orbit-container">
-        <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
-        <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
-        <li class="is-active orbit-slide">
-          <img class="orbit-image" src="../assets/img/p7.jpg" alt="Space">
     
-        </li>
-        <li class="orbit-slide">
-          <img class="orbit-image" src="../assets/img/p1.jpg" alt="Space">
-          <figcaption class="orbit-caption"><h4>Pulitura de Faros</h4></figcaption>
-        </li>
-        <li class="orbit-slide">
-          <img class="orbit-image" src="../assets/img/p6.jpg" alt="Space">
-          <figcaption class="orbit-caption"><h4>Lavados Especiales <h4></figcaption>
-    
-        </li>
-        <li class="orbit-slide">
-          <img class="orbit-image" src="../assets/img/p3.jpg" alt="Space">
-    
-        </li>
-      </ul>
-      <nav class="orbit-bullets">
-        <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
-        <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-        <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-        <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
-      </nav>
     </div>
-        </div>
-    </div>
-    <div class="row">
-      <div class="large-12 columns text-center  secondary" id="positioning">
-        <h4 class="text-left titulos">Quiénes somos</h4>
-        <div id="icon1">
-          <img src="../assets/img/icon.png" alt="">
+    
+    <div class="off-canvas-content expanded" data-off-canvas-content>
+        <!-- Your page content lives here -->
+        <div class="title-bar">
+            <div class="title-bar-left">
+                <button class="menu-icon" type="button" data-open="offCanvas"></button>
+                <ul id="tbarleft" class="no-bullet">
+                  <li><p>La mejor casa de lavado para tu coche</p></li>
+    
+                </ul>
+    
+            </div>
+            <div class="title-bar-right ">
+                <ul class="menu align-right" id="tbarright">
+                    <li>
+                        <a href="http://www.facebook.com"><img id="fb-logo" src="../assets/img/fb.png" alt=""></a>
+                    </li>
+                    <li><a href="tel:971504560">971 50 45 60</a></li>
+    
+                </ul>
+            </div>
         </div>
         <div class="row">
-          <div class="columns medium-6">
-            <img src= "../assets/img/quienes.jpg">
+            <div class="text-center columns small-12" id="services">
+                <img src="../assets/img/logolavauto.png" alt="" id="logo" class="text-center">
     
-          </div>
-          <div class="columns medium-6" >
-            <p id="textabout">Somos una empresa con más de 15 años de experiencia en el mercado especializado de limpieza y pulitura de coches. Tenemos servicios diseñados específicamente para flotas y concesionarios de vehículos, para particulares </p>
-          </div>
+                <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                    <ul class="orbit-container">
     
+                        <li class="is-active orbit-slide">
+                            <img class="orbit-image" src="../assets/img/p7.jpg" alt="Space">
+    
+                        </li>
+                        <li class="orbit-slide">
+                            <img class="orbit-image" src="../assets/img/p1.jpg" alt="Space">
+    
+                        </li>
+                        <li class="orbit-slide">
+                            <img class="orbit-image" src="../assets/img/p2.jpg" alt="Space">
+    
+    
+                        </li>
+                        <li class="orbit-slide">
+                            <img class="orbit-image" src="../assets/img/p3.jpg" alt="Space">
+    
+                        </li>
+                    </ul>
+                    <div class="orbit-bullets">
+                        <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+                        <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                        <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+                        <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+                    </div>
+                    <div id="menu-orbit">
+                        <ul class="vertical menu">
+                            <li><a href="#location">Contacto</a></li>
+                            <li><a href="#location">Dónde Estamos</a></li>
+                            <li><a href="#portfolio">Servicios</a></li>
+                            <li><a href="#positioning">Quiénes Somos</a></li>
+                        </ul>
+    
+                    </div>
+                </div>
+            </div>
         </div>
-          </div>
-          </div>
     
+        <div class="row">
+            <div class="text-center" id="positioning">
+                <div class="text-left" id="titulos">Quiénes somos</div>
+                <div id="icon">
+                    <img src="../assets/img/icon.png" alt="">
+                </div>
+                <div class="row">
+                    <div class="columns small-12 medium-6">
+                        <img src="../assets/img/quienes.jpg">
     
+                    </div>
+                    <div class="columns small-12 medium-6">
+                        <p id="textabout">Somos una empresa con más de 30 años de experiencia en el mercado especializado de limpieza y pulitura de coches para particulares. Tenemos servicios diseñados específicamente para flotas y concesionarios de vehículos.
+                        </p>
+                    </div>
     
-    <div class="row">
-      <div class="large-12 columns text-center  secondary" id="portfolio">
-    
-        <h4 class="text-left" id="titu1">Servicios</h4>
-        <div id="icon1">
-          <img src="../assets/img/icon.png" alt="">
-        </div>
-        <div class="row small-up-2 medium-up-3" id="grid">
-      <div class="column" >
-        <div class="card">
-          <img src="../assets/img/s1.jpg">
-          <div class="card-section">
-            <h4>Limpieza Interior</h4>
-    
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="card">
-          <img src="../assets/img/s2.jpg">
-          <div class="card-section">
-            <h4>Limpieza exterior</h4>
-    
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="card">
-          <img src="../assets/img/s3.jpg">
-          <div class="card-section">
-            <h4><button success>Limpieza de llantas</button></h4>
-    
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row small-up-2 medium-up-3" id="grid">
-    <div class="column">
-    <div class="card">
-      <img src="../assets/img/s4.jpg">
-      <div class="card-section">
-        <h4>Pulitura</h4>
-    
-      </div>
-    </div>
-    </div>
-    <div class="column">
-    <div class="card">
-      <img src="../assets/img/s5.jpg">
-      <div class="card-section">
-        <h4>Limpieza de tapicería</h4>
-    
-      </div>
-    </div>
-    </div>
-    <div class="column">
-    <div class="card">
-      <img src="../assets/img/s6.jpg">
-      <div class="card-section">
-        <h4>Pulido de faros</h4>
-      </div>
-    </div>
-    </div>
-    </div>
-    
-    
-        </div>
-    </div>
-    <div class="row">
-      <div class="large-12 columns text-center  secondary" id="social">
-        <div class="row medium-up-2">
-      <div class="column" id="instafeed">
-        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:37.5% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BPCPysxAWJc/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Welcome #2017, we are restarting operations, motivated to produce the best work for our clients and helping them to decode marketing #majorca #spain</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">Una foto publicada por CAM Consulting (@camconsulting) el <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-01-09T07:23:38+00:00">8 de Ene de 2017 a la(s) 11:23 PST</time></p></div></blockquote> <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
-    
-      </div>
-      <div class="column" id="facebookfeed">
-        <div class="fb-page" data-href="https://www.facebook.com/camconsultingonline" data-tabs="timeline" data-height="490px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/camconsultingonline" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/camconsultingonline">CAM Consulting</a></blockquote></div>
-    
-      </div>
-    
-    </div>
-    
-    
-    
-    
-        <h2>social</h2></div>
-    </div>
-    <div class="row">
-      <div class="large-12 columns text-center  secondary" id="location">
-        <h4 class="text-left titulos">Dónde estamos</h4>
-        <div id="icon1">
-          <img src="../assets/img/icon.png" alt="">
+                </div>
+            </div>
         </div>
         <div class="row">
-          <div class="columns medium-6">
+            <div class="text-center" id="portfolio">
     
-            <div ><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.805579648693!2d2.91378401504107!3d39.72155180554809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297c5be48ecf98f%3A0xbb4887137e7e66cb!2sLavauto+Inca!5e0!3m2!1sen!2ses!4v1484401829958" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-          </div>
-          <div class="columns medium-6" >
+                <div class="text-left" id="titu1">Servicios</div>
+                <div id="icon">
+                    <img src="../assets/img/icon.png" alt="">
+                </div>
+                <div class="row" id="grid-card">
+                    <div class="small-12 medium-4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="../assets/img/s1.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Limpieza Interior  <i class="fi-plus"></i></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Limpieza Exterior<i class="material-icons right">cerrar</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small-12 medium-4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="../assets/img/s2.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Limpieza Exterior  <i class="fi-plus"></i></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Limpieza Exterior<i class="material-icons right">cerrar</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small-12 medium-4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="../assets/img/s3.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Limpieza de llantas  <i class="fi-plus"></i></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Limpieza de llantas<i class="material-icons right">cerrar</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+    
+                    <div class="row" id="grid-card">
+                        <div class="small-12 medium-4">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="../assets/img/s4.jpg">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Pulitura  <i class="fi-plus"></i></span>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Pulitura<i class="material-icons right">cerrar</i></span>
+                                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="small-12 medium-4">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="../assets/img/s5.jpg">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Tapicería  <i class="fi-plus"></i></span>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Limpieza tapicería<i class="material-icons right">cerrar</i></span>
+                                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="small-12 medium-4">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="../assets/img/s6.jpg">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Pulitura de faros  <i class="fi-plus"></i></span>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Pulitura de faros<i class="material-icons right">cerrar</i></span>
+                                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+    
+    
+                </div>
+            </div>
+            <div class="row text-center" id="social">
+                <div class="columns small-12 medium-6" id="instafeed">
+    
+                    <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                        <div style="padding:8px;">
+                            <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:37.5% 0; text-align:center; width:100%;">
+                                <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div>
+                            </div>
+                            <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BPCPysxAWJc/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Welcome #2017, we are restarting operations, motivated to produce the best work for our clients and helping them to decode marketing #majorca #spain</a></p>
+                            <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">Una foto publicada por CAM Consulting (@camconsulting) el <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-01-09T07:23:38+00:00">8 de Ene de 2017 a la(s) 11:23 PST</time></p>
+                        </div>
+                    </blockquote>
+                    <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+    
+                </div>
+                <div class="columns small-12 medium-6" id="facebookfeed">
+                    <div class="fb-page" data-href="https://www.facebook.com/camconsultingonline" data-tabs="timeline" data-height="490px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/camconsultingonline" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/camconsultingonline">CAM Consulting</a></blockquote>
+                    </div>
+    
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    <div class="row text-center" id="location">
+        <div class="columns small-12 medium-6">
+            <div class="text-left" id="titulos">Dónde estamos</div>
+            <div id="icon">
+                <img src="../assets/img/icon.png" alt="">
+            </div>
+    
+    
+            <div>
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.805579648693!2d2.91378401504107!3d39.72155180554809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297c5be48ecf98f%3A0xbb4887137e7e66cb!2sLavauto+Inca!5e0!3m2!1sen!2ses!4v1484401829958"
+                    frameborder="0" height="400" width="500" style="border:0" allowfullscreen></iframe>
+            </div>
+    
+        </div>
+        <div class="columns small-12 medium-6">
             <img src="../assets/img/p5.jpg" alt="">
-            <h4 class="text-center">Dirección:</h4>
-            <p >Calle Andreu Caimari, 27 - 07300 Inca. <br>Telf: <a href="tel:971504560">971 50 45 60</a>
-              <br>Contáctanos por <a href="mailto:luis@gmail.com">email</a>
-             </p>
-    
-          </div>
+            <div class="text-center">Dirección:</div>
+            <p>Calle Andreu Caimari, 27 - 07300 Inca. <br>Telf: <a href="tel:971504560">971 50 45 60</a>
+                <br>Contáctanos por <a href="mailto:luanca.pmi@gmail.com">email</a>
+            </p>
     
         </div>
-            <div class="media-object">
-      <div class="media-object-section">
     
-      </div>
-      <div class="media-object-section">
-    
-        <p></p>
-      </div>
-    </div>
-    
-        </div>
-    </div>
-    </div>
-    <div class="row">
-      <div class="large-12 columns text-center  secondary" id="blog">
-        <div class="row medium-up-2">
-          <div class="columns">
-            <div class="media-object">
-      <div class="media-object-section">
-        <img src= "http://placehold.it/200x200">
-      </div>
-      <div class="media-object-section">
-        <h4>Dreams feel real while we're in them.</h4>
-        <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you.</p>
-      </div>
-    </div>
-          </div>
-          <div class="columns">
-            <div class="media-object">
-      <div class="media-object-section">
-        <img src= "http://placehold.it/200x200">
-      </div>
-      <div class="media-object-section">
-        <h4>Dreams feel real while we're in them.</h4>
-        <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you.</p>
-      </div>
-    </div>
-          </div>
-        </div>
-        <h2>blog</h2></div>
     </div>
     
     <div class="row">
-      <div class="large-12 columns text-center  secondary" id="footer">
-        <div class="row">
-          <div class="columns medium-6">
+        <div class="text-center" id="blog">
+            <div class="row medium-up-2">
+                <div class="columns">
+                    <div class="media-object">
+                        <div class="media-object-section">
+                            <img src="http://placehold.it/200x200">
+                        </div>
+                        <div class="media-object-section">
+                            <div>Dreams feel real while we're in them.</div>
+                            <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="media-object">
+                        <div class="media-object-section">
+                            <img src="http://placehold.it/200x200">
+                        </div>
+                        <div class="media-object-section">
+                            <div>Dreams feel real while we're in them.</div>
+                            <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2>blog</h2></div>
+    </div>
+    
+    <div class="row expanded text-center" id="footer">
+    
+        <div class="columns small-12 medium-6">
             <img id="imgfooter" src="../assets/img/logo.png" alt="">
-          </div>
-          <div class="columns medium-6">
-            <ul class="menu align-right" id="footer-menu">
-              <li><a href="#location">Contacto</a></li>
-              <li><a href="#location">Dónde Estamos</a></li>
-              <li><a href="#portfolio">Servicios</a></li>
-              <li><a href="#positioning">Quiénes Somos</a></li>
-    
-    
-    
-    
-    </ul>
-    
-    
-          <!-- <h4 class="text-center">Dirección:</h4>
-          <p >Calle Andreu Caimari ,27 - 07300 Inca. <br>Telf: <a href="tel:971504560">971 50 45 60</a>
-            <br>Contáctanos por <a href="mailto:luis@gmail.com">email</a>
-           </p> -->
-           </div>
-    
         </div>
+        <div class="columns small-12 medium-6 medium-align-right">
+            <ul class="menu" id="footer-menu">
+                <li><a href="#location">Contacto</a></li>
+                <li><a href="#location">Dónde Estamos</a></li>
+                <li><a href="#portfolio">Servicios</a></li>
+                <li><a href="#positioning">Quiénes Somos</a></li>
+            </ul>
         </div>
+    
     </div>
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.8&appId=1138698906223730";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-    
-      </div>
+    </div>
     
 
     <script src="assets/js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
 
   </body>
 </html>
